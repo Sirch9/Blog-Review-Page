@@ -1,0 +1,113 @@
+body{
+    font-family: "Spectral SC", serif;
+    font-weight: 400;
+    /*font-style: normal;*/
+    background-color:  hsl(47, 88%, 63%);
+    /*font-size: 16px;*/
+  }
+  
+
+  .blogCard{
+    border: 1px solid black;
+    width: 50vmin;
+    height: 70vmin;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1rem;
+    padding: 15px;
+    margin: auto;
+    flex: 0 1 auto;
+    /*text-align: center;*/
+    box-shadow: 10px 10px;
+  }
+
+  main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+  }
+
+  .article{
+    margin: auto;
+    width: 50vmin;
+    display: block;
+    border-radius: 1rem;
+  }
+
+  button{
+    border-radius: 0.3rem;
+    margin: 15px 1px 0 1px;
+    border:none;
+    background-color: hsl(47, 88%, 63%);
+    font-weight: 700;
+    padding: 8px;
+  }
+
+  .p1{
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+
+  .p2{
+    font-size: 18px;
+    font-weight: bold;
+    /*margin-top: 0;*/
+  }
+  .p3{
+    font-size: 12px;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: grey;
+  }
+
+  .p4{
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+    /*margin-bottom: 50px;*/
+  }
+
+  .avatar{
+    height: auto; 
+    width: auto; 
+    max-width: 40px; 
+    max-height: 40px;
+  }
+
+  .imageAvatar{
+    /*display: inline;*/
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    /*margin-bottom: 0;*/
+  }
+
+  /*.p4 .tooltip{
+    visibility: hidden;
+    padding: 0.25em 0.5em;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 0.25em;
+    white-space: nowrap;
+    
+
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 100%;
+    transition-property: visibility;
+    transition-delay: 0s;
+  }
+
+  .p4:hover .tooltip {
+    visibility: visible;
+    transition-delay: 0.3s;
+  }
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: default;
+  }*/
